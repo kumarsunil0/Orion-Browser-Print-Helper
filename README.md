@@ -15,7 +15,7 @@ This extension was created to solve a common issue where tracking labels, invoic
 
 ## 🛠️ Installation (Orion Browser on iOS)
 
-1. **Download the Zip**: Download the latest `orion_print_helper_v1.9.zip` from this repository.
+1. **Download the Zip**: Download the latest `orion_print_helper_v1.6.zip` from this repository.
 2. **Open Orion Settings**: On your iPhone/iPad, open Orion and go to **Settings > Extensions**.
 3. **Install from File**:
    - Tap **Install from File**.
@@ -33,10 +33,7 @@ This extension was created to solve a common issue where tracking labels, invoic
 
 ## 📄 Version History
 
-- **v1.9**: Final refinements, improved click interception, and removed debug banners.
-- **v1.7**: Integrated Background Script for more reliable tab opening.
 - **v1.6**: Added Settings Page for domain management.
-- **v1.3**: Initial stable release for HTML print support.
 
 ---
 *Developed to help logistics and e-commerce users manage their operations smoothly on mobile.*
