@@ -1,0 +1,24 @@
+{
+  "manifest_version": 2,
+  "name": "Orion Print Helper",
+  "version": "1.9",
+  "description": "Orion Print Helper (Final Refinement)",
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": true
+  },
+  "options_ui": {
+    "page": "options.html",
+    "open_in_tab": true
+  },
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["content.js"],
+      "css": ["style.css"],
+      "run_at": "document_start",
+      "all_frames": true
+    }
+  ],
+  "permissions": ["storage", "tabs", "<all_urls>"]
+}
