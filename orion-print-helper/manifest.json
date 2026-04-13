@@ -3,6 +3,9 @@
   "name": "Orion Print Helper",
   "version": "1.9",
   "description": "Orion Print Helper (Final Refinement)",
+  "icons": {
+    "128": "icon.png"
+  },
   "background": {
     "scripts": ["background.js"],
     "persistent": true
